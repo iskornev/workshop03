@@ -1,0 +1,63 @@
+body {
+	background: #8E8075;
+	font-family: Georgia;
+	font-size: 20px;
+	line-height: 1.4;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+	background: pink;
+}
+
+a:hover {
+	background: red;
+}
+
+#top {
+	height: 100px;
+	width: 100%;
+}
+
+.container {
+	width: 50%;
+	margin: 100px auto;
+	background: white;
+	padding: 100px;
+	border: 20px dashed red;
+	border-radius: 40px;
+}
+
+li {
+	margin-bottom: 2em;
+}
+
+ol.steps {
+	padding: 0;
+}
+
+ol.parts li {
+	margin-bottom: 0;
+}
+
+.summary {
+	font-style: italic;
+	margin-top: 3em;
+}
+
+h1 {
+	font-size: 3em;
+	margin-top: 0;
+}
+
+hr {
+	border: 0;
+	border-bottom: 1em solid pink;
+	margin: 4em 0;
+}
+
+div.tip {
+	margin-top: 1em;
+	font-style: italic;
+}
